@@ -1,6 +1,7 @@
-#include<iostream>
-#include<list>
-#include<queue>
+//CODE for solving SPOJ problem based on Dijkstra Algorithm 
+//URL: https://www.spoj.com/problems/EZDIJKST/
+
+#include<bits/stdc++.h>
 using namespace std;
 
 void addedge(int u, int v, int k, list<pair<int, int> > *adj){
